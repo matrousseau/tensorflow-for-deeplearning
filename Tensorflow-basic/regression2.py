@@ -15,12 +15,6 @@ y_df = pd.DataFrame(y_true, columns=['Y'])
 
 my_data = pd.concat([x_df, y_df], axis=1)
 
-
-# print(my_data.head(5))
-#
-# my_data.sample(n=250).plot(kind="scatter", x="X Data", y="Y")
-# plt.show()
-
 # ---------------------- Variables ----------------------
 
 batch_size = 16

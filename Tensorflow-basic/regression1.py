@@ -17,7 +17,6 @@ for x,y in zip(x_data, y_data):
     error += (y-y_hat)**2
 
 
-
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.001)
 train = optimizer.minimize(error)
 

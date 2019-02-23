@@ -19,11 +19,7 @@ with tf.Session() as sess:
     mult_result = sess.run(mutlt_op, feed_dict={a:rand_a, b:rand_b})
     # print(mult_result)
 
-
-
 # ------------------------------------------------------------------------------
-
-
 
 n_features = 10
 n_dense_neurons = 3
