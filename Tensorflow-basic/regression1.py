@@ -3,6 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+from tensorflow.python.client import device_lib
+
+
+
+print(device_lib.list_local_devices())
+# print(get_available_gpus())
+
 x_data = np.linspace(0,10,10) + np.random.uniform(-1.5, 1.5, 10)
 y_data = np.linspace(0,10,10) + np.random.uniform(-1.5, 1.5, 10)
 
